@@ -1,0 +1,30 @@
+{
+  "name": "pact-stellar-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "14.2.3",
+    "react": "^18",
+    "react-dom": "^18",
+    "@stellar/stellar-sdk": "^12.0.0",
+    "@stellar/freighter-api": "^2.0.0",
+    "@creit.tech/stellar-wallets-kit": "^0.9.4",
+    "lucide-react": "^0.378.0",
+    "framer-motion": "^11.2.0",
+    "zustand": "^4.5.2",
+    "@tanstack/react-query": "^5.35.1",
+    "clsx": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
+}

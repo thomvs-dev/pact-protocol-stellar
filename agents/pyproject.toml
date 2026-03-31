@@ -1,0 +1,12 @@
+[project]
+name = "pact-stellar-agents"
+version = "0.1.0"
+description = "AI Agents for Pact Protocol on Stellar"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "stellar-sdk",
+    "pydantic",
+    "anthropic",
+]
