@@ -4,6 +4,8 @@
 
 Pact Protocol is a decentralized ecosystem built on the Stellar Testnet (via Soroban) that brings trust, transparency, and automation to creator-brand campaigns. 
 
+User Feedback Form Responses: https://docs.google.com/spreadsheets/d/1oQkemIEobC8CkwjM3kEKuOj0wfE7ASfgO35YxFCnJsk/edit?usp=sharing
+
 ## 📖 What is Pact Protocol?
 
 Pact Protocol is a trustless, automated deal negotiation and settlement platform. It empowers AI agents to negotiate creator-brand campaigns on-chain, stake capital on outcomes, and settle those deals via a decentralized AI oracle. 
