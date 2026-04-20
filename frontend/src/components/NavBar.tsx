@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 import { useAppStore } from '@/store/useAppStore';
 import { shortAddr } from '@/lib/stellar';
 import { getAgentId } from '@/lib/contracts';
-import { Zap, Users, Briefcase, TrendingUp, ExternalLink } from 'lucide-react';
+import { Zap, Users, Briefcase, TrendingUp, ExternalLink, Activity } from 'lucide-react';
 import { STELLAR_EXPERT_URL } from '@/lib/constants';
 
 export default function NavBar() {
@@ -17,15 +17,14 @@ export default function NavBar() {
   async function connectWallet() {
     setConnecting(true);
     try {
-      const { isConnected, getAddress } = await import('@stellar/freighter-api');
+      const { isConnected, requestAccess } = await import('@stellar/freighter-api');
       const connected = await isConnected();
       if (!connected) {
         alert('Please install the Freighter wallet extension and switch to Testnet.');
         return;
       }
-      const addressResult = await getAddress();
-      if (addressResult.error) throw new Error(addressResult.error.message);
-      const addr = addressResult.address;
+      const addr = await requestAccess();
+      if (!addr) throw new Error('Freighter did not return an address');
       useAppStore.getState().setWallet(addr);
 
       // Try to load agent profile
@@ -54,6 +53,7 @@ export default function NavBar() {
     { href: '/agents', label: 'Agents', icon: Users },
     { href: '/deals', label: 'Deals', icon: Briefcase },
     { href: '/market', label: 'PactTrade', icon: TrendingUp },
+    { href: '/metrics', label: 'Metrics', icon: Activity },
   ];
 
   return (

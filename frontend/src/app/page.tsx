@@ -80,14 +80,14 @@ export default function DashboardPage() {
               <button
                 className="btn btn-lg"
                 onClick={async () => {
-                  const { isConnected, getAddress } = await import('@stellar/freighter-api');
+                  const { isConnected, requestAccess } = await import('@stellar/freighter-api');
                   const connected = await isConnected();
                   if (!connected) {
                     alert('Install Freighter wallet and switch to Testnet');
                     return;
                   }
-                  const res = await getAddress();
-                  if (!res.error) useAppStore.getState().setWallet(res.address);
+                  const addr = await requestAccess();
+                  if (addr) useAppStore.getState().setWallet(addr);
                 }}
               >
                 <Zap size={16} /> CONNECT WALLET

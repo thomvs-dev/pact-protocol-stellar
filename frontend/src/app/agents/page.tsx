@@ -13,6 +13,7 @@ import {
   AgentProfile,
   ReputationScore,
 } from '@/lib/contracts';
+import { signWithFreighter } from '@/lib/freighter';
 import { Users, UserPlus, Star, RefreshCw } from 'lucide-react';
 
 const PLATFORMS = ['instagram', 'tiktok', 'youtube', 'twitter', 'twitch', 'x', 'other'];
@@ -103,13 +104,8 @@ export default function AgentsPage() {
       }
 
       setTxStatus('signing');
-      const { signTransaction } = await import('@stellar/freighter-api');
-      const signResult = await signTransaction(xdr, {
-        networkPassphrase: 'Test SDF Network ; September 2015',
-      });
-      if (signResult.error) throw new Error(signResult.error.message);
-
-      await submitTx(signResult.signedTxXdr);
+      const signedXdr = await signWithFreighter(xdr);
+      await submitTx(signedXdr);
 
       // Reload agent ID
       const id = await getAgentId(walletAddress);

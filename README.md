@@ -82,5 +82,27 @@ All smart contracts are currently live and continuously tested on the **Stellar 
    npm run dev
    ```
 
+## ✅ Readiness and Operations Artifacts
+
+The repository includes concrete testnet evidence and operational runbooks:
+
+- Deployment manifest (local/on-chain WASM hash verification):  
+  `ops/testnet/deployment-manifest.json`
+- Function invocation matrix with tx hashes and failure diagnostics:  
+  `ops/testnet/invocation-matrix.md` and `ops/testnet/invocation-evidence.json`
+- Reproducible scripts:
+  - `scripts/testnet/generate_deployment_manifest.py`
+  - `scripts/testnet/run_invocation_matrix.py`
+  - `scripts/testnet/deploy_all.sh`
+- Monitoring endpoints in agent runtime:
+  - `/healthz`
+  - `/metrics`
+  - `/metrics/summary`
+- Frontend metrics dashboard route: `/metrics`
+- Data indexing pipeline: `agents/indexer.py` (SQLite output in `ops/indexer/pact_indexer.db`)
+- Security checklist: `docs/security/security-checklist.md`
+- Release gate report: `docs/release/readiness-report.md`
+- Testnet runbook: `docs/operations/testnet-runbook.md`
+
 ---
 *Built with ❤️ for the Stellar Network.*

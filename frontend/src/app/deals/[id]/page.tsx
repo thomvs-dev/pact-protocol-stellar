@@ -19,6 +19,7 @@ import {
   STELLAR_EXPERT_URL,
 } from '@/lib/constants';
 import { formatUsdc, shortAddr } from '@/lib/stellar';
+import { signWithFreighter } from '@/lib/freighter';
 import { ArrowLeft, ExternalLink, Clock, CheckCircle, AlertCircle, Loader } from 'lucide-react';
 
 export default function DealDetailPage() {
@@ -58,12 +59,8 @@ export default function DealDetailPage() {
     try {
       const xdr = await buildFn();
       setTxStatus('signing', { message: `Sign the ${label} transaction in Freighter` });
-      const { signTransaction } = await import('@stellar/freighter-api');
-      const result = await signTransaction(xdr, {
-        networkPassphrase: 'Test SDF Network ; September 2015',
-      });
-      if (result.error) throw new Error(result.error.message);
-      await submitTx(result.signedTxXdr);
+      const signedXdr = await signWithFreighter(xdr);
+      await submitTx(signedXdr);
       await loadDeal();
     } catch (err: any) {
       if (tx.status !== 'error') setTxStatus('error', { error: err.message });

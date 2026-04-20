@@ -9,6 +9,7 @@ import {
   buildCreateDeal,
   Deal,
 } from '@/lib/contracts';
+import { signWithFreighter } from '@/lib/freighter';
 import { parseUsdc } from '@/lib/stellar';
 import { Briefcase, Plus, RefreshCw, AlertCircle } from 'lucide-react';
 
@@ -78,13 +79,8 @@ export default function DealsPage() {
       );
 
       setTxStatus('signing');
-      const { signTransaction } = await import('@stellar/freighter-api');
-      const signResult = await signTransaction(xdr, {
-        networkPassphrase: 'Test SDF Network ; September 2015',
-      });
-      if (signResult.error) throw new Error(signResult.error.message);
-
-      await submitTx(signResult.signedTxXdr);
+      const signedXdr = await signWithFreighter(xdr);
+      await submitTx(signedXdr);
       await loadDeals();
       setTab('list');
     } catch (err: any) {

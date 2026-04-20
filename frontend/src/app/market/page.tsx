@@ -6,6 +6,7 @@ import TxStatus from '@/components/TxStatus';
 import MarketRow from '@/components/MarketRow';
 import { getMarket, getYesPrice, buildBuyTokens, buildRedeem, Market } from '@/lib/contracts';
 import { parseUsdc } from '@/lib/stellar';
+import { signWithFreighter } from '@/lib/freighter';
 import { TrendingUp, RefreshCw, AlertCircle, Info } from 'lucide-react';
 
 interface MarketData {
@@ -54,12 +55,8 @@ export default function MarketPage() {
       const usdcIn = parseUsdc(buyAmount);
       const xdr = await buildBuyTokens(walletAddress, dealId, isYes, usdcIn);
       setTxStatus('signing');
-      const { signTransaction } = await import('@stellar/freighter-api');
-      const result = await signTransaction(xdr, {
-        networkPassphrase: 'Test SDF Network ; September 2015',
-      });
-      if (result.error) throw new Error(result.error.message);
-      await submitTx(result.signedTxXdr);
+      const signedXdr = await signWithFreighter(xdr);
+      await submitTx(signedXdr);
       setBuyModal(null);
       await loadMarkets();
     } catch (err: any) {
@@ -73,12 +70,8 @@ export default function MarketPage() {
     try {
       const xdr = await buildRedeem(walletAddress, dealId);
       setTxStatus('signing');
-      const { signTransaction } = await import('@stellar/freighter-api');
-      const result = await signTransaction(xdr, {
-        networkPassphrase: 'Test SDF Network ; September 2015',
-      });
-      if (result.error) throw new Error(result.error.message);
-      await submitTx(result.signedTxXdr);
+      const signedXdr = await signWithFreighter(xdr);
+      await submitTx(signedXdr);
       await loadMarkets();
     } catch (err: any) {
       if (tx.status !== 'error') setTxStatus('error', { error: err.message });

@@ -1,0 +1,70 @@
+{
+  "generated_at_utc": "2026-04-20T10:31:37.403057+00:00",
+  "network": {
+    "name": "testnet",
+    "rpc_url": "https://soroban-testnet.stellar.org",
+    "network_passphrase": "Test SDF Network ; September 2015"
+  },
+  "contracts": [
+    {
+      "name": "agent_registry",
+      "contract_id": "CBIORX6H6LNFVJZDDR5VRIK2SMS33F65NLAZXXUVIJCWDGQYFQBI3AMB",
+      "wasm_path": "contracts/target/wasm32v1-none/release/agent_registry.wasm",
+      "local_wasm_sha256": "4e99c41a7b3b09675e98ba70a310b72dd567b041c499239a39461194e06926db",
+      "onchain_wasm_hash": "4e99c41a7b3b09675e98ba70a310b72dd567b041c499239a39461194e06926db",
+      "hashes_match": true,
+      "deploy_transaction_hash": null,
+      "initialize_transaction_hash": null,
+      "initialize_note": "already initialized with oracle signer",
+      "explorer_contract_url": "https://stellar.expert/explorer/testnet/contract/CBIORX6H6LNFVJZDDR5VRIK2SMS33F65NLAZXXUVIJCWDGQYFQBI3AMB"
+    },
+    {
+      "name": "validation_registry",
+      "contract_id": "CCLSZGX22VETSIMFE27NXO4KOPLJOHRTRLGQTDJVBSX3IWRQCPIXSKWA",
+      "wasm_path": "contracts/target/wasm32v1-none/release/validation_registry.wasm",
+      "local_wasm_sha256": "a3d85ce4d5f345865940d53a2b9b369562819883597ec072ddf5ac85cb0e743d",
+      "onchain_wasm_hash": "a3d85ce4d5f345865940d53a2b9b369562819883597ec072ddf5ac85cb0e743d",
+      "hashes_match": true,
+      "deploy_transaction_hash": null,
+      "initialize_transaction_hash": null,
+      "initialize_note": "no initialize function",
+      "explorer_contract_url": "https://stellar.expert/explorer/testnet/contract/CCLSZGX22VETSIMFE27NXO4KOPLJOHRTRLGQTDJVBSX3IWRQCPIXSKWA"
+    },
+    {
+      "name": "campaign_oracle",
+      "contract_id": "CANGGB2JIORNUTNWWMWCORYKHMYBO64BEC464RLX2WIDFTD772PAUE2E",
+      "wasm_path": "contracts/target/wasm32v1-none/release/campaign_oracle.wasm",
+      "local_wasm_sha256": "89885fe04b2110ea37ef0031c6316d698e1715f307ed9377f6ff2c1cdbfd2b5e",
+      "onchain_wasm_hash": "89885fe04b2110ea37ef0031c6316d698e1715f307ed9377f6ff2c1cdbfd2b5e",
+      "hashes_match": true,
+      "deploy_transaction_hash": null,
+      "initialize_transaction_hash": null,
+      "initialize_note": "already initialized with oracle signer",
+      "explorer_contract_url": "https://stellar.expert/explorer/testnet/contract/CANGGB2JIORNUTNWWMWCORYKHMYBO64BEC464RLX2WIDFTD772PAUE2E"
+    },
+    {
+      "name": "deal_vault",
+      "contract_id": "CBYJ4ZCAUBOKLLGYE4JLHBUOGCHLB4IA56G6JQH2DF5E5UCZWEULUIDZ",
+      "wasm_path": "contracts/target/wasm32v1-none/release/deal_vault.wasm",
+      "local_wasm_sha256": "5f3627ccb39c91620398eeddda949056a1f895878749ff43cf3bbf7680ffd92e",
+      "onchain_wasm_hash": "5f3627ccb39c91620398eeddda949056a1f895878749ff43cf3bbf7680ffd92e",
+      "hashes_match": true,
+      "deploy_transaction_hash": null,
+      "initialize_transaction_hash": null,
+      "initialize_note": "already initialized with USDC/oracle/treasury",
+      "explorer_contract_url": "https://stellar.expert/explorer/testnet/contract/CBYJ4ZCAUBOKLLGYE4JLHBUOGCHLB4IA56G6JQH2DF5E5UCZWEULUIDZ"
+    },
+    {
+      "name": "pact_market",
+      "contract_id": "CCTXVX6LYNHPL2XJHNOTXKJ33IOY7BYLPMN7SHMV6X2YW7LBPYNG2I4E",
+      "wasm_path": "contracts/target/wasm32v1-none/release/pact_market.wasm",
+      "local_wasm_sha256": "986403bdec843c6816f0aad994b0728d0a0245d36c7004e237dc90801e34cc18",
+      "onchain_wasm_hash": "986403bdec843c6816f0aad994b0728d0a0245d36c7004e237dc90801e34cc18",
+      "hashes_match": true,
+      "deploy_transaction_hash": null,
+      "initialize_transaction_hash": null,
+      "initialize_note": "already initialized with USDC/oracle",
+      "explorer_contract_url": "https://stellar.expert/explorer/testnet/contract/CCTXVX6LYNHPL2XJHNOTXKJ33IOY7BYLPMN7SHMV6X2YW7LBPYNG2I4E"
+    }
+  ]
+}

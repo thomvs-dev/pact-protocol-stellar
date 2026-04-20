@@ -1,0 +1,10 @@
+{
+  "generated_at_utc": "2026-04-20T10:59:00Z",
+  "db_path": "ops/indexer/pact_indexer.db",
+  "runs_recorded": 1,
+  "events_indexed": 0,
+  "notes": [
+    "Indexer pipeline is functional and persisted run metadata in SQLite.",
+    "Current Soroban RPC event window returned no matching retained events for configured contract IDs."
+  ]
+}

@@ -154,11 +154,7 @@ export function stringVal(env: string, s: string): xdr.ScVal {
 
 // Helper: i128 to ScVal
 export function i128Val(n: bigint): xdr.ScVal {
-  const hi = n >> 64n;
-  const lo = n & 0xFFFFFFFFFFFFFFFFn;
-  return xdr.ScVal.scvI128(
-    new xdr.Int128Parts({ hi: Number(hi), lo: BigInt(lo) })
-  );
+  return nativeToScVal(n, { type: 'i128' }) as xdr.ScVal;
 }
 
 // Helper: u64 to ScVal
