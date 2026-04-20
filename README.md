@@ -104,5 +104,18 @@ The repository includes concrete testnet evidence and operational runbooks:
 - Release gate report: `docs/release/readiness-report.md`
 - Testnet runbook: `docs/operations/testnet-runbook.md`
 
+## 🖼 Product Screenshots
+
+Current UI snapshots from `frontend/public`:
+
+![Pact Protocol Screenshot 1](<frontend/public/Screenshot from 2026-04-20 17-11-09.png>)
+![Pact Protocol Screenshot 2](<frontend/public/Screenshot from 2026-04-20 17-11-13.png>)
+![Pact Protocol Screenshot 3](<frontend/public/Screenshot from 2026-04-20 17-11-22.png>)
+
+## 📝 Community Form
+
+Share feedback and submit responses here:  
+[Pact Protocol Community Form](https://docs.google.com/forms/d/e/1FAIpQLSf09nG7PYFjWAdHDeJPWVD3GoN9K7BYzOyycXLBdBz8_nI2rA/viewform?usp=header)
+
 ---
 *Built with ❤️ for the Stellar Network.*
