@@ -8,6 +8,53 @@ Thanks for the 30+ Responses 🥳🥳🥳
 
 User Feedback Form Responses: https://docs.google.com/spreadsheets/d/1oQkemIEobC8CkwjM3kEKuOj0wfE7ASfgO35YxFCnJsk/edit?usp=sharing
 
+### 📊 Feedback Summary
+
+| Metric | Value |
+|--------|-------|
+| 📋 Total Responses | 29 |
+| 📅 Date Range | Apr 2 – Apr 28, 2026 |
+| ⭐ Average Rating | 4.90 / 5 |
+| ✅ Completed Successfully ("Yes, completely") | 25 / 29 (86%) |
+| 📈 Average NPS Score | 8.8 / 10 |
+| 🏆 Most Highlighted Features | Interface Design, Unique Features/Innovation, Stellar Ecosystem Integration |
+| 🔁 Most Requested Improvements | Transaction history analytics, Mobile responsiveness, Dark mode |
+| 💬 Would Recommend (9–10) | 26 / 29 (90%) |
+
+### 📝 All Responses
+
+| Date | Name | Stellar Address | Rating | Completed | NPS | Feature Suggestions | Bugs / Issues | Satisfaction | Ease of Use | Transparency | Reliability | Highlights | Improvements | Recommend |
+|------|------|----------------|--------|-----------|-----|---------------------|---------------|-------------|-------------|-------------|------------|------------|-------------|-----------|
+| 4/2/2026 | Vineeth Agarwal | GCF4VO6GHFA5RISX5ZWV76RKWKADWRKZUENXCJWU3DCKTHRTKA4C3FO6 | 5 | Yes, completely | 8 | — | — | Agree | Agree | Strongly Agree | Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/11/2026 | Atharva Bedekar | GA5CJ4YQ2RXHRQXLL45CTH6OPPHI7D7U7NFOVA4X4IPNEJAG25GYHQTY | 5 | Yes, completely | 8 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Stellar Ecosystem | — | 8 |
+| 4/17/2026 | Ishaan Singh | GDBHJ2KZAHBGXPCL5XIFPANXKEXXQWPTLFOP7VKFPUT2UM3XO3DXUYC3 | 5 | Yes, completely | 10 | — | No | Agree | Neutral | Strongly Agree | Strongly Agree | Interface Design, Innovation, Onboarding | — | 9 |
+| 4/21/2026 | Thomas Sajeev Varghese | GBZXXPOEWYQ25U6QWWGRH2G6NG3RPYOPWXM22BLJYKDQP25YBXLDOMDR | 5 | Yes, completely | 8 | Mobile App | A few warnings | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/21/2026 | Akil Ayman | GCYDRSTINWZ3WZREFTJIDV3MVRQ4T6CSL3SGVHCV2RDJVZP25PYR3XUM | 5 | Mostly | 8 | — | — | Strongly Agree | Agree | Neutral | Strongly Agree | Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 7 |
+| 4/26/2026 | Ayush Singh | GCNUSPEYSDOQ3RAIUAUGVWXZYXWTQZYCUXE4ZMRAOZ7RNYG467MI3AD6 | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/26/2026 | Ayush Badra | GBPZBT3Q4YNZ32JR3C4MFTBCQUEIN2XU2RTNJJC6DQ4ZXE6YRN74GHZP | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/26/2026 | Vineet Agrawal | GBNOWPLNWEICSM6LVIFPE6EMDKJATV5EVRRUPF3JJ74OJBJK6QRFLBXM | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/26/2026 | Rakshit Joshi | GBUVREE7VXGCMLEWS34TQQO4NUOIRY5T33BLTXHHYZC5ENG6CBSEEDHK | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/26/2026 | Praveen Bajpai | GAA6Z5GKP6QQ46STRROW3MO4HMKBKNFKJV7QCVIBTG2ZWZQHRQWLQVR4 | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/27/2026 | Swastik Yadav | GASBPOAZFHFQBVAHC7U424LW6UHVVDLBDCZOOCFLDMW5JZ52OEKJJ3HU | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/27/2026 | Madhav Joshi | GBYIXPFQOCFT7K5IYRUTNBV5ZR7U5HIWIQT2EN6SEBWEM54ZBMXO2A2W | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/27/2026 | Shivam Tiwari | GDKDYG2465YXHNI4WQ3YHWLTGKM5VLICHN3EQSMJERWHC2GEOMY3VGXR | 5 | Yes, completely | 9 | More detailed transaction history and analytics | No significant bugs | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | Improve mobile responsiveness | 9 |
+| 4/27/2026 | Shivam Choudhary | GASBPOAZFHFQBVAHC7U424LW6UHVVDLBDCZOOCFLDMW5JZ52OEKJJ3HU | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/27/2026 | Vinit Yadav | GAA6Z5GKP6QQ46STRROW3MO4HMKBKNFKJV7QCVIBTG2ZWZQHRQWLQVR4 | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/27/2026 | Vipul Netam | GCNUSPEYSDOQ3RAIUAUGVWXZYXWTQZYCUXE4ZMRAOZ7RNYG467MI3AD6 | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/28/2026 | Shourya Vaidhya Jain | GCQABBP7627A32LKA3OY3IEASCBRA2QRWTEENHDXAXBGT5N47KEGKKH4 | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/28/2026 | Saurin Patel | GBHRCRU6ED76FKWXXUJ4LQCMOEQ3H3QMZV4CQHJNGBVCKNTURMBSR76H | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/28/2026 | Jaini Banushali | GD5A6MLPDGQT2XFV3C2JZ5B2ZJR4TGYONJSC7GFR5CNF4LGKO3WCCU6I | 5 | Yes, completely | 9 | — | — | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | — | 10 - Extremely likely |
+| 4/28/2026 | Abhay Yadav | GBXBIWNNXRRNPYZHBPBJWJ2UOLZRZLKU7AVNDMMAIYJTDAYDMJDHQX2U | 4 | Mostly | 8 | — | — | Agree | Agree | Agree | Agree | Stellar Ecosystem | More detailed transaction history and analytics | 8 |
+| 4/28/2026 | Asmit Shaw | GDM7GJESLWPFXZSMV5UHRX54T3LEJY3A7HOLRUM3QOAUIHFBJQ4IBF4E | 4 | Mostly | 8 | — | — | Agree | Agree | Agree | Agree | Interface Design, Stellar Ecosystem | More detailed transaction history and analytics | 8 |
+| 4/28/2026 | Prithviraj Singh Chouhan | GCCEKO7FIO5MNWZXHIF3H36CORKINQGM2H6A75JDX6R46ZEWVD2EGQCG | 4 | Mostly | 8 | — | — | Agree | Agree | Agree | Agree | Interface Design, Speed & Efficiency, Stellar Ecosystem | More detailed transaction history and analytics dashboard | 8 |
+| 4/28/2026 | Anees PC | GBK2ZYUELRJWQNRYZRAVPQECSOCNLZFPUWK3LGDGATU5ECEEHQG5UEBN | 5 | Yes, completely | 9 | Mobile-friendly version or push notifications for transactions | No bugs encountered | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | More detailed transaction history analytics | 10 - Extremely likely |
+| 4/28/2026 | Farseen Hallag | GB54WZTGEGJNNS6EPCAUDGXH6IGNX7ZG6YPSX62OVPVXFTIHHYH6F46T | 5 | Yes, completely | 9 | Dark mode for extended usage | No issues at all | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | Nothing - one of the best Stellar dApps | 10 - Extremely likely |
+| 4/28/2026 | Zamaan Naalakath | GDNQCCOAJWTV4MXRVHVWBNIW2ZCIHS3GJQZBZ6GGS5LNJXEG7DKTMGXW | 5 | Yes, completely | 9 | Multi-language support | No bugs or technical issues | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | Maybe add a portfolio tracker | 10 - Extremely likely |
+| 4/28/2026 | Soumil | GA2GCIXCSHMTQMI23IH3QX4NUKM2GF2NSC6ZZAYSJEONKHTBNFLMDJTQ | 5 | Yes, completely | 9 | Detailed analytics dashboard for transaction history | No bugs at all | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | More real-time Stellar network data | 10 - Extremely likely |
+| 4/28/2026 | Ashank Mishra | GDJMYXPAGK2LVXNHT5TLFYW43ION5QQIQ6SDVH33ZTRRJKTZPSQWKY2G | 5 | Yes, completely | 9 | Fiat on-ramp integration | Zero issues — flawless performance | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | More detailed error messages | 10 - Extremely likely |
+| 4/28/2026 | Dauoo | GBMPROTCK6SPO7V4BJXPAXE65XIQY32XXC4UU25MJ4Q7MH27HA6FHS3J | 5 | Yes, completely | 9 | Staking feature integration with Stellar | No bugs encountered | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | Referral rewards program | 10 - Extremely likely |
+| 4/28/2026 | Prashil Thul | GD3Y437MDK3RST2NYJLIIDDWMAEECWGYL6JOG54HXEA72IJFM43YBMDB | 5 | Yes, completely | 9 | API access for developers to build on Pact Protocol | No bugs — wonderful smooth experience | Strongly Agree | Strongly Agree | Strongly Agree | Strongly Agree | Interface Design, Speed & Efficiency, Innovation, Clarity, Stellar Ecosystem, Onboarding | Community governance voting feature | 10 - Extremely likely |
+
 ## 📖 What is Pact Protocol?
 
 Pact Protocol is a trustless, automated deal negotiation and settlement platform. It empowers AI agents to negotiate creator-brand campaigns on-chain, stake capital on outcomes, and settle those deals via a decentralized AI oracle. 
