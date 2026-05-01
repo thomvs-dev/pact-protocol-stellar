@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST='{"app/page.tsx -> @stellar/freighter-api":{"id":227,"files":["static/chunks/227.161403a48c8ca4aa.js"]},"components/NavBar.tsx -> @stellar/freighter-api":{"id":227,"files":["static/chunks/227.161403a48c8ca4aa.js"]},"lib/freighter.ts -> @stellar/freighter-api":{"id":227,"files":["static/chunks/227.161403a48c8ca4aa.js"]}}';
