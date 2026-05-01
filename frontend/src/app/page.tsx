@@ -105,7 +105,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Protocol stats */}
-      <div style={{ background: 'var(--bg-secondary)', borderTop: '2px solid var(--border-dim)', borderBottom: '2px solid var(--border-dim)', padding: '2rem 0' }}>
+      <div style={{ background: 'rgba(16, 16, 16, 0.7)', backdropFilter: 'blur(10px)', borderTop: '2px solid var(--border-dim)', borderBottom: '2px solid var(--border-dim)', padding: '2rem 0' }}>
         <div className="container">
           <div className="grid-4" style={{ gap: '2px' }}>
             {[
